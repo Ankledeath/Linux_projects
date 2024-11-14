@@ -12,7 +12,7 @@ How to Use:
 Clone the repository:
 bash
 Копировать код
-git clone https://github.com/yourusername/Linux_projects.git
+git clone https://github.com/Ankledeath/Linux_projects
 Navigate to a project directory and follow the provided instructions to set up and use each tool.
 Contributions:
 Feel free to open issues for bug reports or feature requests, or submit pull requests to add new functionality or improvements.
