@@ -10,8 +10,6 @@ The goal of this repository is to create and share tools for Linux administrator
 
 How to Use:
 Clone the repository:
-bash
-Копировать код
 git clone https://github.com/Ankledeath/Linux_projects.git
 Navigate to a project directory and follow the provided instructions to set up and use each tool.
 Contributions:
