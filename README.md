@@ -47,10 +47,55 @@ GitHub Copilot agents are AI-powered coding assistants that can be delegated spe
 ## Purpose:
 The goal of this repository is to create and share tools for Linux administrators and enthusiasts, ranging from automation scripts to system monitoring, performance tuning tools, and AI-assisted development workflows.
 
-How to Use:
-Clone the repository:
-git clone https://github.com/Ankledeath/Linux_projects.git
-Navigate to a project directory and follow the provided instructions to set up and use each tool.
-Contributions:
+## How to Use:
+
+### Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ankledeath/Linux_projects.git
+   cd Linux_projects
+   ```
+
+2. Make scripts executable:
+   ```bash
+   chmod +x *.sh
+   ```
+
+3. For GitHub Copilot Agent Manager:
+   ```bash
+   # Initialize the system
+   ./copilot_agent_manager.sh init
+   
+   # Run interactive mode
+   ./copilot_agent_manager.sh
+   
+   # Or use command line mode
+   ./copilot_agent_manager.sh help
+   ```
+
+4. For Task Scheduler:
+   ```bash
+   ./Task_Scheduled.sh
+   ```
+
+### Testing
+Run the comprehensive system test:
+```bash
+./test_system.sh
+```
+
+### Quick Demo
+Experience the GitHub Copilot Agent Manager:
+```bash
+./demo_copilot_agents.sh quick
+```
+
+## Documentation
+- `README.md` - This file (project overview)
+- `COPILOT_AGENT_GUIDE.md` - Comprehensive usage guide for the agent manager
+- `test_system.sh` - System validation tests
+- `demo_copilot_agents.sh` - Demonstration script
+
+## Contributions:
 Feel free to open issues for bug reports or feature requests, or submit pull requests to add new functionality or improvements.
 
